@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Harry Jay William C">
+    <title>Harry Jay William C | Responsive Web Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="#top">Harry Jay William C</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Developed by Harry Jay William C</p>
+                <h1>Designing clean responsive web layouts with Flexbox and CSS Grid.</h1>
+                <p>
+                    This webpage by Harry Jay William C demonstrates a modern layout
+                    with a flexible navigation bar, grid-based content sections, cards,
+                    and responsive behavior across every screen size.
+                </p>
+                <a class="button" href="#services">Explore Services</a>
+            </div>
+
+            <figure class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80"
+                    alt="A modern workspace with laptop, notebook, and desk accessories"
+                >
+            </figure>
+        </section>
+    </header>
+
+    <main>
+        <section class="section intro-section" aria-labelledby="intro-title">
+            <div class="section-heading">
+                <p class="eyebrow">Layout Overview</p>
+                <h2 id="intro-title">Simple structure, strong presentation.</h2>
+            </div>
+            <p>
+                Harry Jay William C arranged this page with clear sections, consistent
+                spacing, and flexible content areas so visitors can scan quickly and
+                navigate comfortably on desktop, tablet, and mobile screens.
+            </p>
+        </section>
+
+        <section class="section content-layout" id="services" aria-labelledby="services-title">
+            <article class="feature-card">
+                <p class="eyebrow">Featured Work</p>
+                <h2 id="services-title">Responsive Website Builds</h2>
+                <p>
+                    Harry Jay William C uses semantic HTML, Flexbox, CSS Grid, and media
+                    queries to create layouts that feel balanced on desktop, comfortable
+                    on tablets, and focused on mobile devices.
+                </p>
+                <a class="text-link" href="#contact">Start a Project</a>
+            </article>
+
+            <div class="card-grid" aria-label="Service cards">
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=80"
+                        alt="Design wireframes and color samples arranged on a desk"
+                    >
+                    <div>
+                        <h3>Interface Design</h3>
+                        <p>Layouts, typography, and components created for clarity and consistency.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                        alt="Laptop showing web analytics and project data"
+                    >
+                    <div>
+                        <h3>Content Strategy</h3>
+                        <p>Section planning that turns scattered ideas into readable web pages.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+                        alt="Team collaborating at a table with laptops"
+                    >
+                    <div>
+                        <h3>Front-End Build</h3>
+                        <p>Semantic HTML and modern CSS used to create accessible page structures.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80"
+                        alt="People reviewing work on a large computer display"
+                    >
+                    <div>
+                        <h3>Launch Support</h3>
+                        <p>Final checks for visual polish, responsiveness, and cross-device behavior.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section project-section" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading">
+                <p class="eyebrow">Selected Work</p>
+                <h2 id="projects-title">Project snapshots</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <span>01</span>
+                    <h3>Brand Website</h3>
+                    <p>A multi-section marketing page with service cards and conversion-focused content.</p>
+                </article>
+
+                <article class="project-card">
+                    <span>02</span>
+                    <h3>Course Portal</h3>
+                    <p>A content-heavy learning layout with tidy columns, cards, and simple navigation.</p>
+                </article>
+
+                <article class="project-card">
+                    <span>03</span>
+                    <h3>Product Showcase</h3>
+                    <p>A visual product page with responsive images and compact feature highlights.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section insights-section" id="insights" aria-labelledby="insights-title">
+            <div>
+                <p class="eyebrow">Insights</p>
+                <h2 id="insights-title">Built for every viewport.</h2>
+                <p>
+                    The layout adapts from wide multi-column views to single-column mobile
+                    reading flows while preserving spacing, image proportions, and clear hierarchy.
+                </p>
+            </div>
+
+            <aside class="stats-panel" aria-label="Studio statistics">
+                <div>
+                    <strong>12+</strong>
+                    <span>Sections planned</span>
+                </div>
+                <div>
+                    <strong>3</strong>
+                    <span>Harry's breakpoints</span>
+                </div>
+                <div>
+                    <strong>100%</strong>
+                    <span>Fluid page width</span>
+                </div>
+            </aside>
+        </section>
+
+        <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+            <div>
+                <p class="eyebrow">Contact</p>
+                <h2 id="contact-title">Connect with Harry Jay William C.</h2>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Harry Jay William C. Responsive layout built with HTML5 and CSS3.</p>
+        <ul class="footer-links" aria-label="Footer navigation">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
