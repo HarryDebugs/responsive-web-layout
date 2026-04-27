@@ -1,6 +1,6 @@
-# Harry Jay William C | Responsive Web Layout using Flexbox and CSS Grid
+# Responsive Web Layout using Flexbox and CSS Grid
 
-A static responsive webpage developed by **Harry Jay William C**. The project demonstrates a header/navigation bar, content sections with cards, a contact form, and a footer using HTML5 and CSS3.
+A Basic static responsive webpage developed by **Harry Jay William C**. The project demonstrates a header/navigation bar, content sections with cards, a contact form, and a footer using HTML5 and CSS3.
 
 ## Developer
 
