@@ -24,7 +24,7 @@ This webpage was created by **Harry Jay William C** to demonstrate responsive la
 | Cards | Service cards and project cards |
 | CSS Grid page structure | Hero, content areas, card grids, project grid, and stats panel |
 | Responsive design | Media queries for desktop, tablet, and mobile screens |
-| Footer | Flexbox footer with copyright text for Harry Jay William C |
+| Footer | Flexbox footer with copyrights |
 
 ## Project Structure
 
@@ -41,6 +41,6 @@ Open `index.html` in a web browser. No installation or build step is required.
 
 ## Files
 
-- `index.html` contains the responsive webpage structure and visible developer credit for Harry Jay William C.
+- `index.html` contains the responsive webpage structure.
 - `styles.css` contains the Flexbox, CSS Grid, spacing, color, card, form, and responsive media query styles.
-- `README.md` documents the project and identifies Harry Jay William C as the developer.
+- `README.md` documents the project.
